@@ -21,8 +21,8 @@ $(document).ready(function() {
 			var section = $(sections[i]);
 			var target = getTargetTop(section);
 			if (scrolledTo > target - threshold && scrolledTo < target + threshold) {
-				sections.removeClass("active");
-				section.addClass("active");
+				//sections.removeClass("active");
+				//section.addClass("active");
 			}
 		};
 	}
