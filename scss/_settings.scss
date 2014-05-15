@@ -39,9 +39,9 @@ $row-width: rem-calc(900);
 // Global
 
 // We use these to control various global styles
-$body-bg: rgba(255,248,158,0.3);
-// $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-bg: rgb(151, 45, 21);
+$body-font-color: rgb(39, 39, 39);
+$body-font-family: "Oswald", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -54,8 +54,8 @@ $body-bg: rgba(255,248,158,0.3);
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
-// $secondary-color: #e7e7e7;
+$primary-color: rgb(151, 45, 21);
+$secondary-color: rgb(255, 249, 181);
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
@@ -104,7 +104,7 @@ $body-bg: rgba(255,248,158,0.3);
 // $medium: $medium-up;
 // $large: $large-up;
 
-//We use this as cursors values for enabling the option of having custom cursors in the whole site's stylesheet
+// We use this as cursors values for enabling the option of having custom cursors in the whole sites stylesheet
 // $cursor-crosshair-value: crosshair;
 // $cursor-default-value: default;
 // $cursor-pointer-value: pointer;
@@ -350,7 +350,7 @@ $body-bg: rgba(255,248,158,0.3);
 // We use these to control button border styles.
 // $button-border-width: 0px;
 // $button-border-style: solid;
-// $bg: $primary-color;
+$bg: #fff;
 // $button-border-color: scale-color($bg, $lightness: $button-function-factor);
 
 // We use this to set the default radius used throughout the core.

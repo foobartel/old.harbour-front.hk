@@ -1,7 +1,7 @@
 // harbour front specific partial
 
-.name img {
-	max-width: 60px;
+body {
+	letter-spacing: 0.025em;
 }
 
 header {
@@ -9,47 +9,111 @@ header {
 	padding: 2em 0 1em 0;
 	
 	img {
-		max-width: 200px;
+		max-width: 400px;
+		width: 100%;
 		margin-bottom: 1em;
 	}
 	
 	h1 {
-		font-size: em-calc(38);
+		font-size: em-calc(56);
+		color: $primary-color;
+		text-transform: uppercase;
+		font-weight: 700;
 		
 		span {
-			font-size: em-calc(20);
+			font-size: em-calc(18);
 			display: block;
+			font-weight: 400;
 		}
 	}
 }
 
-section {
+
+nav {
+	margin-top: -1em;
+	margin-bottom: 5rem;
+	text-align: center;
 	
+	ul {
+		display: inline-block;
+		margin: 0;
+		
+	}
+	
+	li {
+		display: inline;
+		padding: 0 0.5em;
+	}
+	
+	li a {
+		color: $secondary-color;
+		font-weight: 300;
+	}
+	
+	li a:hover {
+		color: #fff;
+	}
+	
+	
+	
+}
+
+.section-0 {
+	background: #fff;
 }
 
 .section-1 {
-	background: rgba(135,59,47,1);
-	padding: 2em 0 1em 0;
-	 .panel {
-	 		background: rgba(135,59,47,1);
-	 		
-	 }
+	background: rgb(151, 45, 21);
+	padding: 2em 0 2em 0;
 }
 
 .section-2 {
-	// background: rgba(255,248,158,0.3);
+
 }
 
-.section-3 {
-	background: lighten(rgb(155,113,37), 0%);
+section p a, footer a {
+	color: darken(rgb(39, 39, 39), 10%);;
+	text-decoration: underline;
 }
 
-.section-4 {
-	background: lighten(rgb(38,3,3), 0%);
+section p a:hover, footer a:hover {
+	color: lighten(rgb(39, 39, 39), 10%);
+	text-decoration: underline;
+}
+
+
+
+
+h2 {
+	color: #fff;
+	font-size: em-calc(36);
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+
+.bar {
+	background: #000;
+	padding: 1rem 0;
+	margin: 4rem 0;
+	color: $primary-color;
 	
-	* {
-		color: rgb(255,255,255);
+	p {
+		color: #fff;
 	}
+}
+
+
+button, .button {
+	text-transform: uppercase;
+}
+
+button.small, .button.small {
+	padding-top: 0.675rem;
+	padding-right: 1.75rem;
+	padding-bottom: 0.675rem;
+	padding-left: 1.75rem;
+	font-size: 0.9rem;
 }
 
 
@@ -62,32 +126,28 @@ section {
 }
 
 .zurb {
-	position: absolute;
-	top: 190px;
-	left: -200px;
+	margin: 1rem auto;
 	max-width: 200px;
-	-webkit-transform: rotate(-28deg);
-  -moz-transform:    rotate(-28deg);
-  -ms-transform:     rotate(-28deg);
-  -o-transform:      rotate(-28deg);
-  transform:         rotate(-28deg);
+	width: 100%;
 }
 
 .freddie {
-	position: absolute;
-	top: 190px;
-	right: -140px;
-	max-width: 150px;
+	margin: 1rem auto;
+	max-width: 100px;
+	width: 100%;
 }
 
 .yeti {
-	position: absolute;
-	top: 190px;
-	left: 290px;
-	max-width: 270px;
+	margin: 1rem auto;
+	max-width: 200px;
+	width: 100%;
 }
 
-
+.hive {
+	margin: 1rem auto;
+	max-width: 120px;
+	width: 100%;
+}
 
 
 
@@ -95,4 +155,11 @@ footer {
 	font-size: em-calc(12);
 	margin-top: 10em;
 	padding: 1rem;
+	text-align: center;
+	border-top: 1px solid #fff;
+	p {
+		font-size: em-calc(12);
+		margin: 0 auto;
+		display: inline-block;
+	}
 }
