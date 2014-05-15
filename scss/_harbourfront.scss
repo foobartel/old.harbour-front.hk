@@ -1,0 +1,98 @@
+// harbour front specific partial
+
+.name img {
+	max-width: 60px;
+}
+
+header {
+	text-align: center;
+	padding: 2em 0 1em 0;
+	
+	img {
+		max-width: 200px;
+		margin-bottom: 1em;
+	}
+	
+	h1 {
+		font-size: em-calc(38);
+		
+		span {
+			font-size: em-calc(20);
+			display: block;
+		}
+	}
+}
+
+section {
+	
+}
+
+.section-1 {
+	background: rgba(135,59,47,1);
+	padding: 2em 0 1em 0;
+	 .panel {
+	 		background: rgba(135,59,47,1);
+	 		
+	 }
+}
+
+.section-2 {
+	// background: rgba(255,248,158,0.3);
+}
+
+.section-3 {
+	background: lighten(rgb(155,113,37), 0%);
+}
+
+.section-4 {
+	background: lighten(rgb(38,3,3), 0%);
+	
+	* {
+		color: rgb(255,255,255);
+	}
+}
+
+
+.date {
+	margin: 2em 0 0 0;
+	color: #666;
+	background: $primary-color;
+	border-radius: 2px;
+	padding: 0.25em;
+}
+
+.zurb {
+	position: absolute;
+	top: 190px;
+	left: -200px;
+	max-width: 200px;
+	-webkit-transform: rotate(-28deg);
+  -moz-transform:    rotate(-28deg);
+  -ms-transform:     rotate(-28deg);
+  -o-transform:      rotate(-28deg);
+  transform:         rotate(-28deg);
+}
+
+.freddie {
+	position: absolute;
+	top: 190px;
+	right: -140px;
+	max-width: 150px;
+}
+
+.yeti {
+	position: absolute;
+	top: 190px;
+	left: 290px;
+	max-width: 270px;
+}
+
+
+
+
+
+footer {
+	font-size: em-calc(12);
+	margin-top: 10em;
+	padding: 1rem;
+}
