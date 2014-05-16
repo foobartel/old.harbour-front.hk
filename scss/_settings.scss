@@ -40,7 +40,7 @@ $row-width: rem-calc(900);
 
 // We use these to control various global styles
 $body-bg: rgb(151, 45, 21);
-$body-font-color: rgb(39, 39, 39);
+$body-font-color: lighten(rgb(255, 249, 181), 3%);
 $body-font-family: "Oswald", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
