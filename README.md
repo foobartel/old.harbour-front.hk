@@ -1,4 +1,15 @@
-# Foundation libsass template
+# Harbour Front HK Website
+
+The site is based on Foundation 5 with Libsass.
+
+## Harbour Front Web Days 
+
+The previous site will be moved and live on in hfwd.harbour-front.hk and has been copied over already. 
+
+
+
+
+## Foundation libsass template
 
 This is a template to start your own project that uses Grunt and libsass!
 
