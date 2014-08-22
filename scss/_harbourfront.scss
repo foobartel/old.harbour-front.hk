@@ -28,6 +28,10 @@ header {
 	}
 }
 
+.subhead {
+	font-size: rem-calc(20);
+	color: $primary-color;
+}
 
 nav {
 	margin-top: -1em;
