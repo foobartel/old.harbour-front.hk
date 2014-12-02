@@ -1,74 +1,74 @@
 // harbour front specific partial
 
 body {
-	letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
 }
 
 header {
-	text-align: center;
-	padding: 2em 0 1em 0;
-	
-	img {
-		max-width: 350px;
-		width: 100%;
-		margin-bottom: 1em;
-	}
-	
-	h1 {
-		font-size: em-calc(56);
-		color: $primary-color;
-		text-transform: uppercase;
-		font-weight: 700;
-		
-		span {
-			font-size: em-calc(18);
-			display: block;
-			font-weight: 400;
-		}
-	}
+  text-align: center;
+  padding: 2em 0 1em 0;
+
+  img {
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  h1 {
+    font-size: em-calc(56);
+    color: $primary-color;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    span {
+      font-size: em-calc(18);
+      display: block;
+      font-weight: 400;
+    }
+  }
 }
 
 .subhead {
-	font-size: rem-calc(20);
-	color: $primary-color;
+  font-size: rem-calc(20);
+  color: $primary-color;
 }
 
 nav {
-	margin-top: -1em;
-	margin-bottom: 5rem;
-	text-align: center;
-	
-	ul {
-		display: inline-block;
-		margin: 0;
-		
-	}
-	
-	li {
-		display: inline;
-		padding: 0 0.45em;
-	}
-	
-	li a {
-		color: $secondary-color;
-		font-weight: 300;
-	}
-	
-	li a:hover {
-		color: #fff;
-	}
-	
-	
-	
+  margin-top: -1em;
+  margin-bottom: 5rem;
+  text-align: center;
+
+  ul {
+    display: inline-block;
+    margin: 0;
+
+  }
+
+  li {
+    display: inline;
+    padding: 0 0.45em;
+  }
+
+  li a {
+    color: $secondary-color;
+    font-weight: 300;
+  }
+
+  li a:hover {
+    color: #fff;
+  }
+
+
+
 }
 
 .section-0 {
-	background: #fff;
+  background: #fff;
 }
 
 .section-1 {
-	background: rgb(151, 45, 21);
-	padding: 2em 0 2em 0;
+  background: rgb(151, 45, 21);
+  padding: 2em 0 2em 0;
 }
 
 .section-2 {
@@ -76,114 +76,114 @@ nav {
 }
 
 section p {
-	letter-spacing: 0.07em;
-	font-weight: 300;
+  letter-spacing: 0.07em;
+  font-weight: 300;
 }
 
 section p a, footer a {
-	color: darken(rgb(255, 249, 181), 10%);;
-	text-decoration: underline;
+  color: darken(rgb(255, 249, 181), 10%);;
+  text-decoration: underline;
 }
 
 section p a:hover, footer a:hover {
-	color: lighten(rgb(255, 249, 181), 20%);
-	text-decoration: underline;
+  color: lighten(rgb(255, 249, 181), 20%);
+  text-decoration: underline;
 }
 
 
 
 
 h2 {
-	color: #fff;
-	font-size: em-calc(36);
-	text-transform: uppercase;
-	font-weight: 300;
+  color: #fff;
+  font-size: em-calc(36);
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 
 .bar {
-	background: #000;
-	padding: 1rem 0;
-	margin: 4rem 0;
-	color: rgba(255,255,255,1);
-	font-weight: 300;
-	letter-spacing: 0.07em;
-	p {
-		color: #fff;
-	}
+  background: #000;
+  padding: 1rem 0;
+  margin: 4rem 0;
+  color: rgba(255,255,255,1);
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  p {
+    color: #fff;
+  }
 }
 
 
 button, .button {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 button.small, .button.small {
-	padding-top: 0.675rem;
-	padding-right: 1.75rem;
-	padding-bottom: 0.675rem;
-	padding-left: 1.75rem;
-	font-size: 0.9rem;
+  padding-top: 0.675rem;
+  padding-right: 1.75rem;
+  padding-bottom: 0.675rem;
+  padding-left: 1.75rem;
+  font-size: 0.9rem;
 }
 
 a.button:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .date {
-	margin: 2em 0 0 0;
-	color: #666;
-	background: $primary-color;
-	border-radius: 2px;
-	padding: 0.25em;
+  margin: 2em 0 0 0;
+  color: #666;
+  background: $primary-color;
+  border-radius: 2px;
+  padding: 0.25em;
 }
 
 .zurb {
-	margin: 1rem auto;
-	max-width: 200px;
-	width: 100%;
+  margin: 1rem auto;
+  max-width: 200px;
+  width: 100%;
 }
 
 .freddie {
-	margin: 1rem auto;
-	max-width: 100px;
-	width: 100%;
+  margin: 1rem auto;
+  max-width: 100px;
+  width: 100%;
 }
 
 .yeti {
-	margin: 1rem auto;
-	max-width: 200px;
-	width: 100%;
+  margin: 1rem auto;
+  max-width: 200px;
+  width: 100%;
 }
 
 .hive {
-	margin: 1rem auto;
-	max-width: 120px;
-	width: 100%;
+  margin: 1rem auto;
+  max-width: 120px;
+  width: 100%;
 }
 
 footer {
-	font-size: em-calc(12);
-	font-weight: 300;
-	letter-spacing: 0.07em;
-	margin-top: 10em;
-	padding: 1rem;
-	text-align: center;
-	border-top: 1px solid #fff;
-	p {
-		font-size: em-calc(12);
-		margin: 0 auto;
-		display: inline-block;
-		color: #fff;
-	}
-	
-	a {
-		color: #fff;
-	}
-	
-	a:hover {
-		color: $secondary-color;
-	}
-	
+  font-size: em-calc(12);
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  margin-top: 10em;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #fff;
+  p {
+    font-size: em-calc(12);
+    margin: 0 auto;
+    display: inline-block;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $secondary-color;
+  }
+
 }
 
