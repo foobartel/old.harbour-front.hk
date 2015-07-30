@@ -101,11 +101,12 @@ h2 {
   font-weight: 300;
 }
 
-h3 {
-  color: #fff;
-  font-size: em-calc(34);
-  text-transform: uppercase;
-  font-weight: 300;
+.subtitle {
+  color: #fff;
+  font-size: rem-calc(18);
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: -2rem;
 }
 
 
