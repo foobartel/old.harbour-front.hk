@@ -2,6 +2,7 @@
 
 body {
   letter-spacing: 0.025em;
+  font-size: 115%;
 }
 
 header {
@@ -98,6 +99,13 @@ h2 {
   font-size: em-calc(36);
   text-transform: uppercase;
   font-weight: 300;
+}
+
+h3 {
+  color: #fff;
+  font-size: em-calc(34);
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 
